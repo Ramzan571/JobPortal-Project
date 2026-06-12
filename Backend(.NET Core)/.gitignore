@@ -1,14 +1,20 @@
-## Visual Studio files
-bin/
-obj/
+# Visual Studio
 .vs/
+**/.vs/
+
+# .NET
+**/bin/
+**/obj/
 *.user
-*.suo
 
-## Important - Connection string hide karna
-appsettings.json
-appsettings.Development.json
+# React
+**/node_modules/
+**/build/
+**/dist/
 
-## Packages
-packages/
-*.nupkg
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
