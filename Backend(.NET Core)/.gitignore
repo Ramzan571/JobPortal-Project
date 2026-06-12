@@ -1,0 +1,14 @@
+## Visual Studio files
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+## Important - Connection string hide karna
+appsettings.json
+appsettings.Development.json
+
+## Packages
+packages/
+*.nupkg
